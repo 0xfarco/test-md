@@ -5,7 +5,7 @@
 
 Payload 1 : `site:nasa.gov filetype:pdf intext:"confidential"`
 
-![[attachments/image1.png]]
+![](attachments/image1.png)  
 
 Found:
 
@@ -17,11 +17,11 @@ Found:
 Payload 1 : `site:nasa.gov`
 
 
-![[attachments/image2.png]]
+![](attachments/image2.png)  
 
 Payload 2 : `site:nasa.gov subdomain`
 
-![[attachments/image3.png]]
+![](attachments/image3.png)  
 
 Found:
 - science.nasa.gov
