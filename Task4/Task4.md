@@ -1,8 +1,9 @@
-# ERULNX16
+# Task 4
 
-Status: Done
-Category: Linux / Unix
-Keywords: ProFTPD 1.3.5, PwnKit, RCE
+- Machine: ERULNX16
+- Status: Done
+- Category: Linux / Unix
+- Keywords: ProFTPD 1.3.5, PwnKit, RCE
 
 # Reconnaissance
 
